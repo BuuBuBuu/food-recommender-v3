@@ -1,0 +1,49 @@
+# Training data
+data/merged_food_reviews.csv
+data/training_data.pkl
+
+# Keep these model files for the API to work
+!data/tfidf_vectorizer.pkl
+!app/models/production_ranking_model_enhanced.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/

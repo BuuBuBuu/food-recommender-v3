@@ -1,0 +1,31 @@
+# Git
+.git
+.gitignore
+
+# Training data
+data/merged_food_reviews.csv
+data/training_data.pkl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Notebooks
+notebooks/
+.ipynb_checkpoints/
