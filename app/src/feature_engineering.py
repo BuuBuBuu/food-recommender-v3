@@ -150,10 +150,10 @@ def predict_scores(candidates_features, model_data, debug=False):
 
     # Combine scores with weights
     final_scores = (
-        0.5 * raw_scores +  # Base model prediction
-        0.3 * confidence_scores +  # Rating confidence
-        0.1 * temporal_scores +  # Review recency
-        0.1 * quality_scores  # Review quality
+        0.65 * raw_scores +  # Base model prediction
+        0.20 * confidence_scores +  # Rating confidence
+        0.10 * temporal_scores +  # Review recency
+        0.05 * quality_scores  # Review quality
     )
 
     # Scale to desired range (20-80)
